@@ -5,9 +5,9 @@ import requests
 import time
 import musicLibrary
 
-# ================== CONFIG ==================
-NEWS_API_KEY = "d09353d72bc40248998159804e0e67d"
-MIC_INDEX = None   # Set mic index if needed (e.g. 1)
+
+#NEWS_API_KEY = "d09353d72bc40248998159804e0e67d"
+#MIC_INDEX = None   # Set mic index if needed (e.g. 1)
 
 # ================== INIT ==================
 recognizer = sr.Recognizer()
@@ -114,4 +114,5 @@ if __name__ == "__main__":
             break
 
         except Exception as e:
+
             print("Error:", e)
